@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.3em; 
+}
+
+form{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input, select{
+    margin: 0.5em;
+    padding: 5px;
+}
+
+button{
+    margin: 0.5em;
+    width: fit-content;
+}
+
+
+th, td{
+    text-align: left;
+    padding: 0.3em 0.7em 0.3em 0.3em;
+    border-bottom: 1px solid lightgrey;    
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

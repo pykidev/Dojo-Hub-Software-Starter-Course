@@ -1,0 +1,19 @@
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.3rem 0rem;
+}
+
+.todo{
+    flex-basis: 100%;
+}
+.checkbutton{
+    width: 2em;
+    height: 2em;
+    border-radius: 10%;
+}
+.todoList{
+    padding: 1rem 0.3rem;
+    margin-top: 1rem;
+}
